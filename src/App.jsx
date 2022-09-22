@@ -1,8 +1,10 @@
 import { useState } from "react";
-import "./App.css";
+
 import Counter from "./components/Counter";
 import Profiles from "./components/Profiles";
 import Register from "./components/Register";
+
+import "./App.css";
 
 const App = () => {
   const [profiles, setProfiles] = useState([]);
